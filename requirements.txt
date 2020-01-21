@@ -1,0 +1,6 @@
+pywin32==227
+timeago==1.0.13
+requests==2.22.0
+pytz==2019.3
+feedparser==5.2.1
+Flask==1.1.1
