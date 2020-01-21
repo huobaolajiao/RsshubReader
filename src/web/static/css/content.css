@@ -1,0 +1,136 @@
+/* Icons */
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'icomoon';
+	src:url('../webfonts/icomoon/icomoon.eot');
+	src:url('../webfonts/icomoon/icomoon.eot') format('embedded-opentype'),
+		url('../webfonts/icomoon/icomoon.woff') format('woff'),
+		url('../webfonts/icomoon/icomoon.ttf') format('truetype'),
+		url('../webfonts/icomoon/icomoon.svg') format('svg');
+}
+
+.icon-close {
+	z-index: 100;
+	display: block;
+	overflow: hidden;
+	width: 3em;
+	height: 3em;
+	text-align: center;
+	line-height: 3;
+	cursor: pointer;
+}
+
+.icon:before {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'icomoon';
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-close::before {
+	content: "\e601";
+}
+
+.icon-close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.icon-close:hover {
+	color: #a50a05;
+}
+
+.content-style-form {
+	position: relative;
+	text-align: left;
+}
+
+.content-style-form h2 {
+	margin: 0;
+	padding: 0.4em 0 0.3em;
+	text-align: center;
+}
+
+.content-style-form form {
+	padding: 10px 30px;
+}
+
+.content-style-form form p {
+	margin: 0 0 5px 0;
+	font-size: 0.7em;
+}
+
+.content-style-form label {
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+.content-style-form input[type="text"] {
+	width: 100%;
+}
+.content-style-form input[type="submit"] {
+	display: block;
+	padding: 1.5em;
+	width: 100%;
+	border: none;
+	background: #007bff;
+	color: #f9f6e5;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 800;
+	font-size: 1.25em;
+}
+
+.content-style-form .icon-close {
+	top: 0;
+	right: 0;
+	color: #ebd3bd;
+	font-size: 75%;
+}
+
+.content-style-form .icon-close:hover {
+	color: #e75854;
+}
+
+.content-style-form-1 p:first-child {
+	-webkit-transition-delay: 0.4s;
+	transition-delay: 0.4s;
+}
+
+.content-style-form-1 p:nth-child(2) {
+	-webkit-transition-delay: 0.45s;
+	transition-delay: 0.45s;
+}
+
+.content-style-form-1 p:nth-child(3) {
+	-webkit-transition-delay: 0.5s;
+	transition-delay: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

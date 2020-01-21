@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+</br>
+
+{% for d in rssDict %}
+<div>
+	 <a href="{{d['link']}}" title="{{d['title']}}" target="_blank" style="display: block; text-align: center;">{{d['title']}}</a>
+	 <div>{{ d['summary']|safe}}</div>
+	 <div style="display: block; text-align: right;">{{d['timeStr']}}</div> 
+	 <hr style="height:1px;border:none;border-top:1px solid #555555;" />
+</div>        
+{% endfor %}
+
+
+
+<div class="pagemiddle">
+<ul class="pagination">
+	{%if page!=1%}<li><a{%if page==1%} class="active"{%endif%} href="?page=1">首页</a></li>{%endif%}
+	
+	{%if pages<=10%}
+		{% for i in range(1,pages+1) %}
+			<li><a{%if page==i%} class="active"{%endif%} href="?page={{ i }}">{{ i }}</a></li>
+		{% endfor %}
+	{% endif %}
+	
+	{%if pages>10%}
+		{%if page<=5%}
+			{% for i in range(1,11) %}
+				<li><a{%if page==i%} class="active"{%endif%} href="?page={{ i }}">{{ i }}</a></li>
+			{% endfor %}
+		{%endif%}
+		{%if page>5 and (pages-page)>=5%}
+			{% for i in range(page-5,page+5) %}
+				<li><a{%if page==i%} class="active"{%endif%} href="?page={{ i }}">{{ i }}</a></li>
+			{% endfor %}
+		{%endif%}
+		{%if (pages-page)<5%}
+			{% for i in range(pages-10,pages) %}
+				<li><a{%if page==i%} class="active"{%endif%} href="?page={{ i }}">{{ i }}</a></li>
+			{% endfor %}
+		{%endif%}
+	{% endif %}
+	
+	
+  {%if page!=pages%}<li><a{%if page==pages%} class="active"{%endif%} href="?page={{pages}}">尾页</a></li>{%endif%}
+</ul>
+</div>
+
+
+{% endblock %}

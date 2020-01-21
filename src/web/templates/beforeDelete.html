@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+</br>
+<a href="../api/deleteRssTask?rssName={{rssName}}" style="display: block; text-align: center;">确定删除</a>
+<h1 style="display: block; text-align: center;size=20;">以下为rss内容预览，确认键在上</h1>
+{% for d in rssDict %}
+<div>
+	 <a href="{{d['link']}}" title="{{d['title']}}" target="_blank" style="display: block; text-align: center;">{{d['title']}}</a>
+	 <div>{{ d['summary']|safe}}</div>
+	 <div style="display: block; text-align: right;">{{d['timeStr']}}</div> 
+	 <hr style="height:1px;border:none;border-top:1px solid #555555;" />
+</div>        
+{% endfor %}
+
+
+
+
+{% endblock %}

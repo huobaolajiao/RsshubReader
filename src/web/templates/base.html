@@ -1,0 +1,241 @@
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Infohub</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/font.css') }}">
+	<script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/sidebar-themes.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/component.css') }}" />
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/content.css')}}" />
+	<script src="{{ url_for('static', filename='js/modernizr.custom.js') }}"></script>
+	
+</head>
+
+<body>
+    <div class="page-wrapper default-theme toggled">
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <!-- sidebar-brand  -->
+                <div class="sidebar-item sidebar-brand">
+                    <a href="/">Infohub</a>
+                </div>
+                
+                <!-- sidebar-menu  -->
+                <div class=" sidebar-item sidebar-menu">
+				<div class="morph-button morph-button-modal morph-button-modal-2 morph-button-fixed">
+					<button type="button">添加订阅</button>
+					<div class="morph-content">
+						<div>
+							<div class="content-style-form content-style-form-1">
+								<span class="icon icon-close">Close the dialog</span>
+								<h2>添加订阅</h2>
+								<form action="/api/addRss" method="post">
+									<p><label>rss地址</label><input type="text" name="url" required/></p>
+									<p><label>任务名（推荐使用英语、数字、下划线）</label><input type="text" name="name" required/></p>
+									<p><label>更新周期（单位为秒）</label><input type="text" name="round" value="3600" required/></p>
+									<p><label>标题</label><input type="text" name="title" required/></p>
+									<p><label>是否为Rsshub Router</label><input type="checkbox" name="isRsshub"/></p>
+									<p><label>推荐rsshub服务器ID（如是rsshub任务填数字）</label><input type="text" name="recommendedServerID" value="0"/></p>
+									<p><input type="submit" value="提交"></p>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div><!-- morph-button -->
+                    <ul>
+                        <li class="header-menu">
+                            <span>常规rss</span>
+                        </li>
+						{% block rssLinkTasks %}
+						{% for task in normalDict %}
+						<li>
+						
+							<a  id="{{task['name']}}" oncontextmenu="showdiv(this,event);preFillEdit(id);" href="/rssShow/{{task['name']}}">
+								<i class="fa fa-book"></i>
+								<span class="menu-text">{{task['title']}}</span>
+								
+								{%if task['unread']>0 %}
+								<span class="badge badge-pill badge-primary">{{task['unread']}}</span>
+								{%endif%}
+							</a>
+						</li>
+						
+						{% endfor %}
+						{% endblock %}
+                        <li class="header-menu">
+                            <span>rsshub任务</span>
+                        </li>
+                        
+						{% block rsshubTasks %}
+						{% for task in rsshubDict %}
+						<li>
+							<a id="{{task['name']}}" oncontextmenu="showdiv(this,event);preFillEdit(id);" href="/rssShow/{{task['name']}}">
+								<i class="fa fa-book"></i>
+								<span class="menu-text">{{task['title']}}</span>
+								{%if task['unread']>0 %}
+								<span class="badge badge-pill badge-primary">{{task['unread']}}</span>
+								{%endif%}
+							</a>
+						</li>
+						{% endfor %}
+						{% endblock %}
+                    </ul>
+                </div>
+                <!-- sidebar-menu  -->
+				<div class="morph-button morph-button-modal morph-button-modal-2 morph-button-fixed" style="display:none;" id="bianji">
+					<button type="button" id="bianjibtn">编辑订阅</button>
+					<div class="morph-content">
+						<div>
+							<div class="content-style-form content-style-form-1">
+								<span class="icon icon-close">Close the dialog</span>
+								<h2>编辑订阅</h2>
+								<form action="/api/updateRss" method="post">
+									<p><label>rss地址</label><input type="text" name="url" id="editUrl" required/></p>
+									<p><label>任务名（暂不能修改）</label><input type="text" name="name"  id="editName" readonly = "readonly"/></p>
+									<p><label>更新周期（单位为秒）</label><input type="text" name="round"  id="editRound" required/></p>
+									<p><label>标题</label><input type="text" name="title"  id="editTitle" required/></p>
+									<p><label>是否为Rsshub Router</label><input type="checkbox" name="isRsshub" id="editIs"/></p>
+									<p><label>推荐rsshub服务器ID（如是rsshub任务填数字）</label><input type="text" name="recommendedServerID" id="editRCID"/></p>
+									<p><input type="submit" value="保存修改"></p>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div><!-- morph-button -->
+				<div id="rightMenu" style="background-color:White; border:1px solid #cccccc; padding:10px; display:none; position:absolute;">
+				<a onclick="bianji.style.display = 'block';document.getElementById('bianjibtn').click();" href="#">编辑</a>
+				<br>
+				<a id="Menudelete" href="#">	删除</a>
+			</div>
+		</div>
+            
+        </nav>
+        <!-- page-content  -->
+        <main class="page-content pt-2">
+			<a id="toggle-sidebar" class="btn btn-secondary rounded-0" href="#" style="position:fixed;top:0px">
+				<span class="fa fa-bars"></span>
+			</a>
+           {% block content %}
+		   这是模板内容位置
+		   {% endblock %}
+        </main>
+        <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+
+    
+	<script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/classie.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/uiMorphingButton_fixed.js') }}"></script>
+	<script>
+		(function() {
+			var docElem = window.document.documentElement, didScroll, scrollPosition;
+
+			// trick to prevent scrolling when opening/closing button
+			function noScrollFn() {
+				window.scrollTo( scrollPosition ? scrollPosition.x : 0, scrollPosition ? scrollPosition.y : 0 );
+			}
+
+			function noScroll() {
+				window.removeEventListener( 'scroll', scrollHandler );
+				window.addEventListener( 'scroll', noScrollFn );
+			}
+
+			function scrollFn() {
+				window.addEventListener( 'scroll', scrollHandler );
+			}
+
+			function canScroll() {
+				window.removeEventListener( 'scroll', noScrollFn );
+				scrollFn();
+			}
+
+			function scrollHandler() {
+				if( !didScroll ) {
+					didScroll = true;
+					setTimeout( function() { scrollPage(); }, 60 );
+				}
+			};
+
+			function scrollPage() {
+				scrollPosition = { x : window.pageXOffset || docElem.scrollLeft, y : window.pageYOffset || docElem.scrollTop };
+				didScroll = false;
+			};
+
+			scrollFn();
+
+			[].slice.call( document.querySelectorAll( '.morph-button' ) ).forEach( function( bttn ) {
+				new UIMorphingButton( bttn, {
+					closeEl : '.icon-close',
+					onBeforeOpen : function() {
+						// don't allow to scroll
+						noScroll();
+					},
+					onAfterOpen : function() {
+						// can scroll again
+						canScroll();
+					},
+					onBeforeClose : function() {
+						// don't allow to scroll
+						noScroll();
+					},
+					onAfterClose : function() {
+						// can scroll again
+						canScroll();
+					}
+				} );
+			} );
+
+			[].slice.call( document.querySelectorAll( 'form button' ) ).forEach( function( bttn ) { 
+				bttn.addEventListener( 'click', function( ev ) { ev.preventDefault(); } );
+			} );
+		})();
+		
+		
+function showdiv(obj,event){
+var e=window.event||event;
+document.getElementById("rightMenu").style.display="block";
+document.getElementById("rightMenu").style.left=event.clientX+'px';
+document.getElementById("rightMenu").style.top=event.clientY+'px';
+e.returnValue=false;
+e.cancelBubble=true;
+ 
+}
+document.onclick = function(){
+    rightMenu.style.display = 'none';
+  }
+  
+function preFillEdit(rssName){
+	document.getElementById('Menudelete').href="../api/beforeDelete?rssName="+rssName;
+	var httpRequest = new XMLHttpRequest();
+        httpRequest.open('GET', '../api/getTaskInfo?rssName='+rssName, true);
+        httpRequest.send();
+        httpRequest.onreadystatechange = function () {
+            if (httpRequest.readyState == 4 && httpRequest.status == 200) {
+                var json = httpRequest.responseText;
+				var newDict = JSON.parse(json);
+				if(newDict['isRsshub']==1){
+					document.getElementById('editIs').checked=true;
+					document.getElementById('editUrl').value=newDict['router'];
+					document.getElementById('editRCID').value=newDict['recommendedServerID'];
+				}
+				else{
+					document.getElementById('editUrl').value=newDict['link'];
+				}
+				document.getElementById('editName').value=newDict['name'];
+				document.getElementById('editRound').value=newDict['round'];
+				document.getElementById('editTitle').value=newDict['title'];
+				
+            }
+        };
+}
+</script>
+</body>
+
+</html>
