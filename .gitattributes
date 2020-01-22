@@ -1,2 +1,3 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+*.js linguist-language=Pythpn
+*.css linguist-language=Pythpn  
+*.html linguist-language=Pythpn
