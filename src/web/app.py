@@ -48,6 +48,11 @@ def rssName(rssName):
         d["timeStr"]=timeago.format(date, now, "zh_CN")
     return render_template('rssShow.html',rssDict=rssDict,normalDict=normalDict,rsshubDict=rsshubDict,page=page+1,pages=pages)
 
+@app.route('/rsshubServers')
+def rsshubServers():
+    (normalDict,rsshubDict)=webDbApi.getRssTasks()
+    serversDict=webDbApi.getRsshubServers()
+    return render_template('rsshubServers.html',serversDict=serversDict,normalDict=normalDict,rsshubDict=rsshubDict)
 @app.route("/api/addRss", methods=['GET','POST'])
 def addRss():
   # GET请求
@@ -66,7 +71,6 @@ def addRss():
             webDbApi.addRsshubTask(newDict['url'],newDict['name'],int(newDict['round']),int(newDict['recommendedServerID']),newDict['title'])
     except:
         webDbApi.addNormalRssLink(newDict['url'],newDict['name'],int(newDict['round']),newDict['title'])
-        
     return redirect('/',code=302)
 
 @app.route("/api/updateRss", methods=['GET','POST'])
@@ -112,5 +116,9 @@ def delRssTask():
     webDbApi.deleteRssTask(rssName)
     return redirect('/',code=302) 
 
+@app.route("/api/updateAllServers", methods=['GET'])
+def updateAllServers():
+    webDbApi.updateAllServers()
+    return "done"
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=5000)

@@ -2,6 +2,7 @@ import sys
 sys.path.append("..")
 import database.dbConn as dbConn
 import spider.rssSpider as rssSpider
+import spider.rsshubServers as rsshubServers
 def dict_factory(cursor, row):
     d = {}
     for index, col in enumerate(cursor.description):
@@ -89,6 +90,17 @@ def getRssTasks():
     conn.close()
     return (normalDict,rsshubDict)
 
+def getRsshubServers():
+    serversDict=[]
+    conn=dbConn.getConn()
+    cTask = conn.cursor()
+    cursor = cTask.execute("SELECT ID,Adress,FuncNum,FirstCheck,LastCheck from rsshubServers")
+    for row in cursor:
+        d =dict_factory(cursor,row)
+        serversDict.append(d)
+    conn.close()
+    return serversDict
+
 def getRssTaskInfo(rssName):
     conn=dbConn.getConn()
     cTask = conn.cursor()
@@ -135,5 +147,5 @@ def deleteRssTask(rssName):
     conn.execute("DELETE FROM rssData where rssName='{}'".format(rssName))
     conn.commit()
     conn.close()
-if __name__ == "__main__":
-    print(getRssTaskInfo("people"))
+def updateAllServers():
+    rsshubServers.updateAllServers()
