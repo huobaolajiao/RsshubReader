@@ -17,11 +17,10 @@
 # 0. requirements
 pip install -r requirements.txt
 # 1. run spider
-手动前台循环抓取订阅
+A手动前台循环抓取订阅
 RsshubReader/src/spider/manualLoop.py
-or
-windows平台下利用pywin32加载为服务，可开机自启
-RsshubReader/src/spider/rsshubServers.py
+B或者windows平台下利用pywin32加载为服务可开机自启
+python RsshubReader/src/spider/SpiderService.py --startup auto install   其他常用操作：stop，start，remove
 # 2. run web server
 RsshubReader/src/web/app.py
 # 3.web browser
@@ -29,16 +28,11 @@ RsshubReader/src/web/app.py
 ```
 
 ## 已知问题
- 1,python工程目录结构import包比较困难。
+ 1,python不同工程目录（log，database，spider，web）有相互调用。
+  
+ 一般可直接运行教程里的manualLoop.py和app.py脚本启动爬虫和服务器。但win32服务时工作目录会跑到系统目录，可能要设置绝对路径，不方便用户移植，待优化（请教各位大神怎么标准import自己的py，或者未来config文件定义项目根目录）
  
- import sys
- sys.path.append("..")
- 
- 有时候要设置绝对路径，不方便用户移植（可直接运行教程里的manualLoop和app脚本，但win32工作目录会跑到系统目录....233333），待优化
- 
- 2,前端代码东拼西凑，有css和js直接写在html里甚至直接挂在标签属性上，有机会优化
-
- 3,rss订阅源Name(内部主键)不能随意在用户web界面修改，一般修改标题title，只能在数据库修改或者删除后重新添加任务，但此参数一般前台不可见。
+ 2,rss订阅源Name(数据库及目录结构主键)不能随意在用户web界面修改(一般只修改标题title)，强行修改可能导致部分功能出错，但此参数在前台不可见，仅在设置时需要操心。
 ## 依赖的库
 ``` 
  pywin32==227
