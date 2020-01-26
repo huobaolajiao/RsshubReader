@@ -10,7 +10,7 @@
 
 * web/app.py是flask的服务器主程序
 
-*rsshubReaderMonitor.pyw是配合win32服务的监视器
+* rsshubReaderMonitor.pyw是配合win32服务的监视器
  ![RsshubReaderMonitor](https://github.com/huobaolajiao/RsshubReader/blob/master/img/monitor.png)
 ## 使用教程
 ```
