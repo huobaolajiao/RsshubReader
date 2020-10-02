@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=0.3">
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=0.3, maximum-scale=1.0, minimum-scale=0.3">
     <title>Infohub</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/font.css') }}">
@@ -18,7 +18,7 @@
 <body>
     <div class="page-wrapper default-theme">
         <nav id="sidebar" class="sidebar-wrapper">
-            <div class="sidebar-content">
+            <div id="sidebardiv" class="sidebar-content">
                 <!-- sidebar-brand  -->
                 <div class="sidebar-item sidebar-brand">
                     <a href="/">Infohub</a>
@@ -120,7 +120,7 @@
         </nav>
         <!-- page-content  -->
         <main class="page-content pt-2">
-			<a id="toggle-sidebar" class="btn btn-secondary rounded-0" href="#" style="position:fixed;top:0px">
+			<a id="toggle-sidebar" class="btn btn-secondary rounded-0" href="javascript:void(0)" style="position:fixed;top:0px">
 				<span class="fa fa-bars"></span>
 			</a>
            {% block content %}
@@ -203,9 +203,13 @@
 		
 function showdiv(obj,event){
 var e=window.event||event;
+var delta=0;
+if((sidebardiv.clientHeight-event.clientY) < rightMenu.offsetHeight){
+delta=rightMenu.offsetHeight;
+}
 document.getElementById("rightMenu").style.display="block";
 document.getElementById("rightMenu").style.left=event.clientX+'px';
-document.getElementById("rightMenu").style.top=event.clientY+'px';
+document.getElementById("rightMenu").style.top=(event.clientY+document.getElementById('sidebardiv').scrollTop-delta)+'px';
 e.returnValue=false;
 e.cancelBubble=true;
  
