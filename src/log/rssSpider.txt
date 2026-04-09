@@ -33,3 +33,339 @@
 2026-04-09 17:14:10,574 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
 2026-04-09 17:14:10,575 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
 2026-04-09 17:14:10,575 - rssSpider - INFO - 3 tasks done 6 tasks wait
+2026-04-09 17:15:10,716 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:15:10,888 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:15:10,898 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:15:15,938 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:15:15,939 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:15:15,939 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:16:16,055 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:16:16,189 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:16:16,196 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:16:21,239 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:16:21,239 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:16:21,240 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:17:21,388 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:17:21,572 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:17:21,618 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:17:26,619 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:17:26,619 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:17:26,619 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:18:26,768 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:18:26,996 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:18:27,031 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:18:32,038 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:18:32,038 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:18:32,038 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:19:32,156 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:19:32,352 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:19:32,375 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:19:37,409 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:19:37,409 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:19:37,409 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:20:37,556 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:20:37,736 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:20:37,744 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:20:42,779 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:20:42,780 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:20:42,780 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:21:42,976 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:21:43,116 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:21:43,168 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:21:48,159 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:21:48,160 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:21:48,160 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:22:48,356 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:22:48,492 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:22:48,544 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:22:53,549 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:22:53,549 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:22:53,549 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:23:53,692 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:23:53,900 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:23:53,941 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:23:58,949 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:23:58,950 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:23:58,950 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:24:59,073 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:24:59,209 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:24:59,224 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:25:04,269 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:25:04,269 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:25:04,270 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:26:04,428 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:26:04,644 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:26:04,683 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:26:09,689 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:26:09,690 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:26:09,690 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:27:09,916 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:27:10,088 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:27:10,346 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:27:15,139 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:27:15,140 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:27:15,140 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:28:15,279 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:28:15,460 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:28:15,468 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:28:20,508 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:28:20,509 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:28:20,509 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:29:20,656 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:29:20,860 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:29:20,903 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:29:25,909 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:29:25,910 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:29:25,910 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:30:26,012 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:30:26,146 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:30:26,152 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:30:31,199 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:30:31,199 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:30:31,200 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:31:31,401 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:31:31,532 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:31:31,588 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:31:36,578 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:31:36,578 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:31:36,579 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:32:36,764 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:32:36,928 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:32:36,971 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:32:41,980 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:32:41,980 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:32:41,980 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:33:42,092 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:33:42,229 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:33:42,236 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:33:47,279 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:33:47,279 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:33:47,279 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:34:47,476 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:34:47,648 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:34:47,682 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:34:52,698 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:34:52,699 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:34:52,699 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:35:52,817 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:35:52,949 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:35:52,955 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:35:57,998 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:35:57,999 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:35:57,999 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:36:58,192 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:36:58,280 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:36:58,308 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:37:03,328 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:37:03,329 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:37:03,329 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:38:03,472 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:38:03,644 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:38:03,663 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:38:08,688 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:38:08,689 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:38:08,689 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:39:08,897 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:39:09,040 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:39:09,084 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:39:14,088 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:39:14,089 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:39:14,089 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:40:14,212 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:40:14,628 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:40:14,661 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:40:19,678 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:40:19,679 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:40:19,679 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:41:19,869 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:41:20,052 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:41:20,106 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:41:25,099 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:41:25,099 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:41:25,100 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:42:25,222 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:42:25,357 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:42:25,364 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:42:30,409 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:42:30,409 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:42:30,410 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:43:30,552 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:43:30,728 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:43:30,741 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:43:35,779 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:43:35,780 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:43:35,780 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:44:35,972 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:44:36,140 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:44:36,194 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:44:41,190 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:44:41,190 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:44:41,191 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:45:41,393 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:45:41,540 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:45:41,579 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:45:46,589 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:45:46,590 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:45:46,590 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:46:46,784 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:46:46,952 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:46:46,990 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:46:52,009 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:46:52,009 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:46:52,010 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:47:52,156 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:47:52,335 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:47:52,361 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:47:57,379 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:47:57,380 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:47:57,380 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:48:57,584 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:48:57,722 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:48:57,729 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:49:02,769 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:49:02,770 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:49:02,770 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:50:02,924 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:50:03,132 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:50:03,171 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:50:08,189 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:50:08,190 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:50:08,190 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:51:08,380 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:51:08,547 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:51:08,587 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:51:13,598 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:51:13,599 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:51:13,599 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:52:13,790 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:52:13,797 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:52:13,948 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:52:19,000 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:52:19,000 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:52:19,001 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:53:19,144 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:53:19,356 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:53:19,394 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:53:24,402 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:53:24,403 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:53:24,403 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:54:24,518 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:54:24,652 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:54:24,662 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:54:29,658 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:54:29,659 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:54:29,660 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:55:29,813 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:55:29,984 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:55:30,006 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:55:35,029 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:55:35,030 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:55:35,030 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:56:35,269 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:56:35,448 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:56:35,456 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:56:40,509 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:56:40,509 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:56:40,509 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:57:40,632 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:57:40,770 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:57:40,777 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:57:45,818 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:57:45,819 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:57:45,819 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:58:46,008 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:58:46,144 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:58:46,196 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:58:51,189 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:58:51,189 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:58:51,190 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 17:59:51,380 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:59:51,544 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 17:59:51,587 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 17:59:56,589 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 17:59:56,589 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 17:59:56,590 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 18:00:56,784 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:00:56,919 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:00:56,973 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 18:01:01,969 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 18:01:01,970 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 18:01:01,970 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 18:02:02,164 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:02:02,344 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:02:02,368 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 18:02:07,388 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 18:02:07,389 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 18:02:07,389 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 18:03:07,586 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:03:07,780 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:03:07,822 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 18:03:12,829 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 18:03:12,830 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 18:03:12,830 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 18:04:12,988 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:04:13,164 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:04:13,175 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 18:04:18,208 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 18:04:18,209 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 18:04:18,210 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 18:05:18,356 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:05:18,528 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:05:18,551 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 18:05:23,579 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 18:05:23,580 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 18:05:23,580 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 18:06:23,732 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:06:23,944 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:06:23,984 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 18:06:28,995 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 18:06:28,996 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 18:06:28,996 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 18:07:29,215 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:07:29,436 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:07:29,471 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 18:07:34,479 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 18:07:34,480 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 18:07:34,480 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 18:08:34,599 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:08:34,844 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:08:34,885 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 18:08:39,888 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 18:08:39,889 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 18:08:39,889 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 18:09:40,093 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:09:40,264 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:09:40,280 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 18:09:45,309 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 18:09:45,309 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 18:09:45,310 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 18:10:45,507 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:10:45,640 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:10:45,656 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 18:10:50,689 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 18:10:50,689 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 18:10:50,690 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 18:11:50,886 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:11:51,020 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:11:51,071 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 18:11:56,069 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 18:11:56,070 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 18:11:56,070 - rssSpider - INFO - 2 tasks done 7 tasks wait
+2026-04-09 18:12:56,321 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:12:56,517 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:12:56,551 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 18:12:56,574 - rssSpider - INFO - sspai  add new:0  old:10
+2026-04-09 18:12:56,602 - rssSpider - INFO - coolshell  add new:0  old:15
+2026-04-09 18:12:56,812 - rssSpider - INFO - meituan  add new:0  old:10
+2026-04-09 18:12:57,389 - rssSpider - INFO - v2ex  add new:4  old:46
+2026-04-09 18:12:57,793 - rssSpider - INFO - ruanyifeng  add new:0  old:6
+2026-04-09 18:12:58,423 - rssSpider - INFO - ifanr  add new:0  old:20
+2026-04-09 18:13:01,526 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 18:13:01,527 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 18:13:01,527 - rssSpider - INFO - 8 tasks done 1 tasks wait
+2026-04-09 18:14:01,724 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:14:01,904 - rssSpider - ERROR - zhihu_hotlist 404/403 failed https://rsshub.app/zhihu/hotlist
+2026-04-09 18:14:01,933 - rssSpider - INFO - zhihu  add new:0  old:0
+2026-04-09 18:14:06,949 - rssSpider - ERROR - zhihu_hotlist download failed https://uneasy.win/rss/zhihu/hotlist
+2026-04-09 18:14:06,949 - rssSpider - WARNING - zhihu_hotlist all download failed /zhihu/hotlist
+2026-04-09 18:14:06,950 - rssSpider - INFO - 2 tasks done 7 tasks wait
